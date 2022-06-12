@@ -56,6 +56,32 @@ public struct Spectrum {
         }
         return cgimage
     }
+    
+    public func decibel() -> Double {
+////        if spectrum.mean > 0.0 {
+////            DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
+////                print("Mean: \(spectrum.mean)")})
+////        }
+//
+//    if spectrum.values.count > 0 {
+//        let decibels = spectrum.values
+//        var ignoreCnt = 0
+//        var sum = Double(0)
+//        for decibel in decibels {
+//            if decibel < 0 { ignoreCnt += 1; continue}
+//            sum += Double(decibel)
+//        }
+//
+//        let cnt = Float(decibels.count - ignoreCnt)
+//        if cnt > Float(decibels.count) * 0.9 {
+//            /// decibel is a unit used to measure the intensity of a sound or the power level of an electrical signal by comparing it with a given level on a logarithmic (laa·guh·Rith·mik) scale. A logarithmic scale is a way of displaying numerical data over a very wide range of values in a compact way.
+//            DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
+//                print("Decibel: \(Float(sum) / cnt) dB")
+//            })
+//        }
+//    }
+        return 0
+    }
 }
 
 @available(iOS 10.0, *)
