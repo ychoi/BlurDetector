@@ -208,7 +208,7 @@ public extension BlurDetector {
                                                 
                         // Calculate standard deviation for blur score
                         vDSP_normalize(backToSpatial.realp, 1, nil, 1, &mean, &stdDev, vDSP_Length(cnt))
-                        print("Blur Score 222 => \(mean), \(stdDev)")
+                        print("Blur Score 333 => \(mean), \(stdDev)")
 
                         return imageFromPixelSource(&backToSpatial, width: width, height: height,
                                                     bitmapInfo: CGBitmapInfo(rawValue: 0))
